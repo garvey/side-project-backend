@@ -18,3 +18,5 @@ class TodoModelTest(TestCase):
         todo = Todo.objects.get(id=2)
         expected_object_name = f'{todo.description}'
         self.assertEquals(expected_object_name, 'a description here')
+
+  
